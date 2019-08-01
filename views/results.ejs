@@ -1,0 +1,11 @@
+<h1 style="font-size:50px">Results Page</h1>
+<% result["Search"].forEach(function(movie){ %>
+    <li style="font-size:30px">
+    <strong>
+    <%=movie["Title"]%>
+    </strong>
+    - <%=movie["Year"]%></li>
+<% }) %>
+<br>
+<br>
+<a style="font-size:30px" href="/">Search Again</a>
